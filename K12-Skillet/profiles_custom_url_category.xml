@@ -5,12 +5,6 @@
     <member>*.yahoo.com</member>
   </list>
 </entry>
-<entry name="White-List">
-  <type>URL List</type>
-</entry>
-<entry name="Custom-No-Decrypt">
-  <type>URL List</type>
-</entry>
 <entry name="Approved Search Engines">
   <list>
     <member>google.com</member>

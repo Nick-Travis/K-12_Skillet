@@ -3,7 +3,7 @@
 # snippet folder name
 name: K-12 Skillet
 # label used for menu selection
-label: K-12 Skillet
+label: (Step 3) K-12 Skillet
 description: K-12 Safe Search Skillet baseline configuration for a firewall
 
 type: panos

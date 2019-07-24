@@ -1,9 +1,9 @@
 name: ngfw_content_update
 # label used for menu selection
-label: NGFW Content Updates
+label: (Step 2) NGFW Content Updates
 
 description: |
-  This skillet will use the firewall API to check, download, and install latest updates
+  This skillet will use the firewall API to check, download, and install latest updates.  This needs to be completed after Ironskillet and before the K12 Skillet
 type: python3
 
 # more complex skillets may express a dependency on another skillet that should be loaded before this one.

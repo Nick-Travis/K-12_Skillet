@@ -3,7 +3,7 @@
 # snippet folder name
 name: skillet_panos_v90
 # label used for menu selection
-label: v9.0 Iron-Skillet for NGFW
+label: (Step 1) Iron-Skillet for NGFW v9.0
 description: Iron-Skillet baseline configuration for a firewall
 dependency: snippets_panorama
 # type of device configuration

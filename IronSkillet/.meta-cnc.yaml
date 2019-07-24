@@ -15,6 +15,7 @@ labels:
   service_type: iron_skillet
   collection:
     - Education
+    - All
 
 # variables used in the configuration templates
 # type_hint defines the form field type in pan-cnc

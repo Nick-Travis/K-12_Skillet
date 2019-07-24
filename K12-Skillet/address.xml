@@ -1,0 +1,18 @@
+<entry name="Sinkhole-IPv4">
+  <fqdn>{{ SINKHOLE_IPV4 }}</fqdn>
+</entry>
+<entry name="Sinkhole-IPv6">
+  <ip-netmask>{{ SINKHOLE_IPV6 }}</ip-netmask>
+</entry>
+<entry name="{{ SANCTIONED_DNS_01_NAME }}">
+  <ip-netmask>{{ SANCTIONED_DNS_01_IP }}</ip-netmask>
+</entry>
+<entry name="{{ SANCTIONED_DNS_02_NAME }}">
+  <ip-netmask>{{ SANCTIONED_DNS_01_IP }}</ip-netmask>
+</entry>
+<entry name="FW - Trust">
+  <ip-netmask>{{ TRUSTED_INTERFACE_IP }}/32</ip-netmask>
+</entry>
+<entry name="{{ LOCAL_DNS_01_NAME }}">
+  <ip-netmask>{{LOCAL_DNS_01_IP }}/32</ip-netmask>
+</entry>

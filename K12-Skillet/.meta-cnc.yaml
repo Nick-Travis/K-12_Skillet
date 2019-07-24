@@ -211,21 +211,6 @@ variables:
 # snippets used for api configuration including xpath and element as file name
 # files will load in the order listed
 snippets:
-  - name: device_system
-    xpath: /config/devices/entry[@name='localhost.localdomain']/deviceconfig/system
-    file: device_system.xml
-  - name: device_setting
-    xpath: /config/devices/entry[@name='localhost.localdomain']/deviceconfig/setting
-    file: device_setting.xml
-  - name: mgt_config_users
-    xpath: /config/mgt-config/users
-    file: mgt_config_users.xml
-  - name: password_complexity
-    xpath: /config/mgt-config/password-complexity
-    file: password_complexity.xml
-  - name: shared_log_settings
-    xpath: /config/shared/log-settings
-    file: shared_log_settings.xml
   - name: interface
     xpath: /config/devices/entry[@name='localhost.localdomain']/network/interface
     file: interface.xml
@@ -250,57 +235,24 @@ snippets:
   - name: dns_proxy
     xpath: /config/devices/entry[@name='localhost.localdomain']/network/dns-proxy
     file: dns_proxy.xml
-  - name: log_settings_profiles
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/log-settings/profiles
-    file: log_settings_profiles.xml
   - name: profiles_custom_url_category
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/custom-url-category
     file: profiles_custom_url_category.xml
-  - name: profiles_decryption
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/decryption
-    file: profiles_decryption.xml
-  - name: profiles_virus
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/virus
-    file: profiles_virus.xml
-  - name: profiles_spyware
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/spyware
-    file: profiles_spyware.xml
-  - name: profiles_vulnerability
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/vulnerability
-    file: profiles_vulnerability.xml
-  - name: profiles_file_blocking
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/file-blocking
-    file: profiles_file_blocking.xml
   - name: profiles_url_filtering
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/url-filtering
     file: profiles_url_filtering.xml
-  - name: profiles_wildfire_analysis
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/wildfire-analysis
-    file: profiles_wildfire_analysis.xml
   - name: profile_group
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profile-group
     file: profile_group.xml
-  - name: default_security_rules
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/default-security-rules
-    file: rulebase_default_security_rules.xml
   - name: security_rules
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security
     file: rulebase_security.xml
   - name: decryption_rules
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/decryption
     file: rulebase_decryption.xml
-  - name: zone_protection_profile
-    xpath: /config/devices/entry[@name='localhost.localdomain']/network/profiles/zone-protection-profile
-    file: zone_protection_profile.xml
   - name: response_page
     xpath: /config/shared/response-page
     file: response_page.xml
   - name: reports
     xpath: /config/shared/reports
     file: reports_simple.xml
-  - name: report_group_simple
-    xpath: /config/shared/report-group
-    file: report_group_simple.xml
-  - name: email_scheduler_simple
-    xpath: /config/shared/email-scheduler
-    file: email_scheduler_simple.xml

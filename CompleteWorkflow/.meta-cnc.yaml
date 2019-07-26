@@ -37,5 +37,7 @@ labels:
 # to load and parse. Jinja2 style variables will be variable interpolated using the values of the 'variables' defined
 # in the 'variables' section.
 snippets:
-# from repo https://github.com/PaloAltoNetworks/iron-skillet.git, branch 90dev
+# from repo
   - name: skillet_panos_v90
+  - name: ngfw_content_update
+  - name: K-12 Skillet

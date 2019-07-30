@@ -114,6 +114,14 @@ variables:
     description: Trusted Interface IP
     default: 204.79.197.220
     type_hint: text
+  - name: TRUST_ZONE_INTERFACE
+    description: Trusted Interface reference
+    default: 1/2
+    type_hint: text
+  - name: UNTRUST_ZONE_INTERFACE
+    description: Trusted Interface reference
+    default: 1/1
+    type_hint: text
 
 # snippets used for api configuration including xpath and element as file name
 # files will load in the order listed

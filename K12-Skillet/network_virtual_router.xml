@@ -15,7 +15,7 @@
     </bgp>
   </protocol>
   <interface>
-    <member>{ UNTRUST_ZONE_INTERFACE }</member>
+    <member>{{ UNTRUST_ZONE_INTERFACE }}</member>
     <member>{{ TRUST_ZONE_INTERFACE }}</member>
   </interface>
 </entry>

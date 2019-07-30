@@ -1,3 +1,10 @@
+<entry name="Black-List">
+  <type>URL List</type>
+  <list>
+    <member>www.yahoo.com</member>
+    <member>*.yahoo.com</member>
+  </list>
+</entry>
 <entry name="Approved Search Engines">
   <list>
     <member>google.com</member>
@@ -22,3 +29,4 @@
   </list>
   <type>URL List</type>
 </entry>
+

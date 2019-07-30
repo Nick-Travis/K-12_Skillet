@@ -101,7 +101,7 @@ variables:
     type_hint: text
   - name: TRUST_ZONE_INTERFACE
     description: Trusted Interface reference
-    default: TRUST_ZONE_INTERFACE
+    default: ethernet1/2
     type_hint: text
   - name: TRUSTED_INTERFACE_IP
     description: Trusted Interface IP

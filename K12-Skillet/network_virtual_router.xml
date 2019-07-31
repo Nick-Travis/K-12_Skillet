@@ -15,7 +15,7 @@
     </bgp>
   </protocol>
   <interface>
-    <member>ethernet1/1</member>
-    <member>ethernet1/2</member>
+    <member>{{ UNTRUST_ZONE_INTERFACE }}</member>
+    <member>{{ TRUST_ZONE_INTERFACE }}</member>
   </interface>
 </entry>

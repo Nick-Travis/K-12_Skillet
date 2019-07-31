@@ -1,5 +1,5 @@
 <ethernet>
-  <entry name="{{ UNTRUST_ZONE_INTERFACE }}">
+  <entry name="ethernet1/1">
     <layer3>
       <ipv6>
         <neighbor-discovery>
@@ -17,7 +17,7 @@
       <dhcp-client/>
     </layer3>
   </entry>
-  <entry name="{{ TRUST_ZONE_INTERFACE }}">
+  <entry name="ethernet1/2">
     <layer3>
       <ipv6>
         <neighbor-discovery>
@@ -33,7 +33,7 @@
         <enable>no</enable>
       </lldp>
       <ip>
-        <entry name="{{ TRUSTED_INTERFACE_IP }}"/>
+        <entry name="{{ TRUSTED_INTERFACE_IP }}{{ TRUSTED_INTERFACE_SUBNET }}"/>
       </ip>
     </layer3>
   </entry>

@@ -45,6 +45,6 @@
   <enabled>no</enabled>
    {% endif %}
   <interface>
-    <member>{{ TRUST_ZONE_INTERFACE }}</member>
+    <member>ethernet{{ TRUST_ZONE_INTERFACE }}</member>
   </interface>
 </entry>

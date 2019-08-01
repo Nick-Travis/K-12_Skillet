@@ -39,5 +39,5 @@ labels:
 snippets:
 # from repo
   - name: skillet_panos_v90
-  #- name: ngfw_content_update
+  - name: ngfw_content_update
   - name: K-12 Skillet
